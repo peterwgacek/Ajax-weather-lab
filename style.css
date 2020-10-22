@@ -3,4 +3,48 @@
     margin: 0;
   }
   
-  main > 
+flex-container {
+    display: flex;
+}
+
+.flex-container p {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%
+}
+
+flex-container a {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    background-color:#09336B ;
+color: #ffffff;
+text-align: center;
+}
+
+search {
+    background-color: #3F618B;
+}
+
+main {
+background-color:#09336B ;
+color: #ffffff;
+text-align: center;
+}
+
+body {
+    display:
+}
+
+.flex-item {
+
+}
+
+#banner {
+
+}
+
+footer img {
+
+}
