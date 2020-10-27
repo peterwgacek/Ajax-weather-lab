@@ -10,9 +10,8 @@ function handleGetData(event) {
     })
     // To convert all units to imperial w/o the function additon - http://api.openweathermap.org/data/2.5/weather?q=pasadena&appid=2e964fa071f3a186b536a3d4dcd39d&units=imperial
     .then(
-      (data) => {
-        console.log(data);
-        $("#city").text(data.q);
+      (data) => { 
+        $("#city").text(data.name);
         $("#temp").text(convert(data.main.temp) + `°F`);
         $("#feel").text(convert(data.main.feels_like) + `°F`);
         $("#weather").text(data.weather[0].description);
@@ -27,9 +26,3 @@ $('form').on("submit", handleGetData)
 function convert(a) {
   return Math.round(((a - 273.15) * 9 / 5 + 32));
 }
-
-/*----- constants -----*/
-/*----- app's state (variables) -----*/
-/*----- cached element references -----*/
-/*----- event listeners -----*/
-/*----- functions -----*/
