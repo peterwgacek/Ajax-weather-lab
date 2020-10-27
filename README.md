@@ -1,18 +1,21 @@
-#AJAX Weather Lab
+# AJAX Weather Lab
 
+AJAX Weather Lab is an app that uses a search form to show the weather in any city the user searches for.
 
-api.openweathermap.org/data/2.5/weather?q={city name}&appid={6bfa9a264b2c6c3b661b5cd232e7bd9c}
-API: 6bfa9a264b2c6c3b661b5cd232e7bd9c
-
-
-Technologies/API used:
-    Technologies Used: HTML, CSS, JavaScript
+## Technologies/API used:
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
     API Used:
      https://openweathermap.org/
-Features:
 
-User Stories:
-    Really helped to go about this in a group effort, though most of this was copy and paste from the class project, it really helped to get some perspective on how to approach a few things.
-Wireframes (you place hosted images in your README)
 
-Stretch Goals/Future Goals:
+## User Stories:
+As a user I should be able to enter in any city by name and get relative weather data
+
+## Wireframe: 
+![wireframe](./img/ajaxwireframe.png)
+
+## Stretch Goals/Future Goals:
+ - add a drop-down menu for the user to choose how many days' worth of foreasts they want
