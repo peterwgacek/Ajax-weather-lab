@@ -19,3 +19,4 @@ As a user I should be able to enter in any city by name and get relative weather
 
 ## Stretch Goals/Future Goals:
  - add a drop-down menu for the user to choose how many days' worth of foreasts they want
+ - add more css styling
